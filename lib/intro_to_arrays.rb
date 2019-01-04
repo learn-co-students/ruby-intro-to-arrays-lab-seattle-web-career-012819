@@ -23,5 +23,12 @@ def last_element(my_last_element)
     my_last_element = @taylor_swift[-1]
 end
 
-def first_element_with_array_methods
+def first_element_with_array_methods(first_country)
   @south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
+  first_country = @south_east_asia.first
+end
+
+def last_element_with_array_methods(last_country)
+  @south_east_asia = ["Thailand", "Cambodia", "Singapore", "Myanmar"]
+  last_country = @south_east_asia.last 
+end
